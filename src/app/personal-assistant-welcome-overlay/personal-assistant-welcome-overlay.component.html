@@ -1,0 +1,36 @@
+<div id='first-question'>
+    <i class='fas fa-kiwi-bird mr-4 mt-3'></i>
+    <div class='triangle-border left' *ngIf='!firstQuestionAnswered'>
+        <div>What ingredients do you have in your fridge today?</div>
+        <div>
+            <small>Separate ingredient names by using a comma ","</small>
+        </div>
+        <div class='input-group'>
+            <input type='text' class='form-control' placeholder='Your ingredients'>
+            <div class='input-group-append'>
+                <button type='button' class='btn btn-primary'>Skip</button>
+            </div>
+        </div>
+        <div class='text-center'>
+            <button type='button' class='btn btn-primary mt-2'>Next</button>
+        </div>
+    </div>
+</div>
+<div id='second-question'>
+    <i class='fas fa-kiwi-bird mr-4 mt-3'></i>
+    <div class='triangle-border left' *ngIf='firstQuestionAnswered'>
+        <div>What ingredients do you have in your fridge today?</div>
+        <div>
+            <small>Separate ingredient names by using a comma ","</small>
+        </div>
+        <div class='input-group'>
+            <input type='text' class='form-control' placeholder='Your ingredients'>
+            <div class='input-group-append'>
+                <button type='button' class='btn btn-primary'>Skip</button>
+            </div>
+        </div>
+        <div class='text-center'>
+            <button type='button' class='btn btn-primary mt-2'>Next</button>
+        </div>
+    </div>
+</div>

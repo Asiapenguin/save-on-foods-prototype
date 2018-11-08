@@ -1,0 +1,34 @@
+/* You can add global styles to this file, and also import other style files */
+@import 'styles/bootstrap/functions';
+@import 'styles/bootstrap/variables';
+@import 'styles/bootstrap/mixins';
+@import 'styles/bootstrap/root';
+@import 'styles/bootstrap/reboot';
+@import 'styles/bootstrap/type';
+@import 'styles/bootstrap/images';
+@import 'styles/bootstrap/code';
+@import 'styles/bootstrap/grid';
+@import 'styles/bootstrap/tables';
+@import 'styles/bootstrap/forms';
+@import 'styles/bootstrap/buttons';
+@import 'styles/bootstrap/transitions';
+@import 'styles/bootstrap/dropdown';
+@import 'styles/bootstrap/card';
+@import 'styles/bootstrap/close';
+@import 'styles/bootstrap/utilities';
+@import 'styles/bootstrap/print';
+
+@import '~@angular/cdk/overlay-prebuilt.css';
+
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+.cdk-overlay-backdrop.cdk-overlay-backdrop-showing {
+  &.dark-backdrop {
+    background: #000;
+    opacity: 0.70 !important;
+  }
+}
+
+* {
+  font-family: Roboto;
+}
