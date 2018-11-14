@@ -55,8 +55,12 @@
   width: 0;
 }
 
-i.fa-kiwi-bird {
+:host {
+  margin: auto;
+  width: 60%;
+}
+
+img {
   float: left;
-  font-size: 60px;
-  color: #5a8f00;
+  width: 20%;
 }
